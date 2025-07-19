@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/fpsText"
+        android:text="FPS: "
+        android:textSize="20sp"
+        android:textColor="#00FFFF"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/ramBoostButton"
+        android:text="Boost RAM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00FFFF"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/gameModeButton"
+        android:text="Activate Game Mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFF"
+        android:textColor="#000000" />
+</LinearLayout>
